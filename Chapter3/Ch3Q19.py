@@ -1,0 +1,12 @@
+x1,y1 = eval (input ('Enter co-ordinates of Point 1:'))
+x2,y2 = eval (input ('Enter co-ordinates of Point 2:'))
+import turtle
+turtle.penup()
+turtle.goto(x1,y1)
+turtle.pendown()
+turtle.dot(5,'black')
+turtle.write('p1 (' +str(x1) +',' +str(y1)+')',font = ('Times New Roman',15,'bold'))
+turtle.goto(x2,y2)
+turtle.dot(5,'black')
+turtle.write('p2 (' +str(x2) +',' +str(y2)+')',font = ('Times New Roman',15,'bold'))
+turtle.done()
