@@ -1,0 +1,12 @@
+import turtle
+turtle.forward(100)
+turtle.right((180-36))
+turtle.forward(100)
+turtle.right((180-36))
+turtle.forward(100)
+turtle.right((180-36))
+turtle.forward(100)
+turtle.right((180-36))
+turtle.forward(100)
+turtle.right((180-36))
+turtle.done()
